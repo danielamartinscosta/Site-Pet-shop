@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* ----Cabeçalho ------ */
+header{
+    background-image: url('fundo-topo.jpg');
+    text-align: center;
+    padding: 10px 0;
+    
+}
+header h1{
+    margin: 0;
+    height: 84px;
+    
+}
+/* ------Menu----- */
+nav li{
+    display: inline;
+    background-image: url(patinha-preta.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-right: 27px;
+    margin-right: 10px;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+}
+
+nav{
+    padding: 15px 0;
+    text-align: center;
+}
+li a:hover {
+    color: #6dd432;
+    transition-delay: 2ms;
+}
+
+/* ----Frame sobre---- */
+
+.fundo-verde{
+    background-color: #bdff9c;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ 
+}
+.flex-container .col{
+    width: 430px;
+}
+/* -- Produtos -- */
+
+.text-centralizado{
+    text-align: center;
+}
+
+.produto{
+    width: 235px;
+}
+.produto figure{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 160px;
+    padding: 0;
+}
+
+.produto figure img{
+    vertical-align: middle;
+
+}
+
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.container p{
+    margin-bottom: 10px;
+}
+
+#produtos .flex-container, #contato .flex-container{
+    margin-top: 43px;
+}
+
+/* --------FORM--------- */
+
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+iframe{
+    width: 100%;
+}
+
+/* -----FOOTHER----- */
+
+footer{
+    text-align: center;
+    border-top: 1px solid #6dd432;
+    font-size: 12px;
+    padding: 20px 0;
+}
